@@ -72,7 +72,6 @@
     "babelify": "^6.0.0",
     "bannerize": "^1.0.0",
     "browserify": "^11.0.0",
-    "browserify-shim": "^3.0.0",
     "connect": "^3.4.0",
     "cowsay": "^1.1.0",
     "doctoc": "^0.15.0",
@@ -99,16 +98,6 @@
     "videojs-standard": "^4.0.0",
     "watchify": "^3.6.0",
     "xhr": "^2.2.0"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "qunit": "global:QUnit",
-    "sinon": "global:sinon",
-    "video.js": "global:videojs"
   },
   "vjsstandard": {
     "ignore": [
